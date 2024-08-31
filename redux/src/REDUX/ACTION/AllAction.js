@@ -1,17 +1,36 @@
-//todo actions 
-export const ADD_TODO = 'ADD_TODO';
-export const REMOVE_TODO = 'REMOVE_TODO';
-export const EDIT_TODO = 'EDIT_TODO';
+// To_Do Actions
 
-//authentication actions
-export const LOGIN = 'LOGIN';
-export const SIGN_UP = 'SIGN_UP';
+export const ADD_TODO = "add_todo"
+export const EDIT_TODO = "edit_todo"
+export const REMOVE_TODO = "remove_todo"
+export const REMOVE_ALL_TODO = "remove_all_todo"
+export const EDIT_FLAG_TODO = "edit_flag_todo"
+export const TOGGLE_FLAG = "toggle_flag"
+export const CURRUNT_TITLE = "currunt_title"
 
-//api actions
-export const FETCH_DATA_REQUEST = 'fetch_data_request';
-export const FETCH_DATA_SUCCESS = 'fetch_data_succes';
-export const FETCH_DATA_DETAIL_SUCCESS = 'fetch_data_detail_success';
 
-// export const FETCH_DATA_BY_ID_REQUEST = 'fetch_data_by_id_request';
-// export const FETCH_DATA_BY_ID_SUCCESS = 'fetch_data_by_id_success';
-// export const FETCH_DATA_BY_ID_FAILURE = 'fetch_data_by_id_failure';
+// Auth Actions
+
+export const LOGIN = "login"
+export const SIGN_UP = "signUp"
+
+
+// API Actions
+
+export const REQUEST_START = "request_start" 
+export const REQUEST_SUCCESS = "request_success"
+export const REQUEST_DETAIL_SUCCESS = "request_detail_success"
+
+
+
+// imgbb action
+export const UPLOAD_IMAGE = 'upload_image_success'
+export const SET_SELECTED_FILE = 'set_selected_file'
+// export const UPLOAD_IMAGE_FAILURE = 'upload_image_failure'
+// export const UPLOAD_IMAGE_REQUEST = 'upload_image_request'
+
+//chat action
+export const SET_USER_DATA = 'SET_USER_DATA';
+export const SET_CHAT_DATA = 'SET_CHAT_DATA';
+export const SET_MESSAGE = 'SET_MESSAGE';
+export const ADD_MESSAGE = 'ADD_MESSAGE';

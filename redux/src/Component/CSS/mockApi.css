@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.data{
+    margin-left: 3vw;
+}
+
+.head{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
